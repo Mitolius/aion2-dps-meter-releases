@@ -25,6 +25,17 @@ Au lancement, le meter regarde s'il existe une version plus récente sur cette p
 barre du bas l'indique : un clic la télécharge, vérifie son empreinte SHA-256 et redémarre le
 meter. L'historique et les réglages sont conservés (`%APPDATA%\Aion2 DPS meter\`).
 
+## Signaler un problème
+
+Dans le menu ☰ du meter :
+1. **● Enregistrer le trafic du jeu**, refais le combat qui pose problème, puis arrête
+   l'enregistrement (facultatif, mais ça aide beaucoup) ;
+2. **Créer un rapport de diagnostic** : un fichier `.zip` apparaît sur ton Bureau, envoie-le
+   sur Discord.
+
+L'enregistrement contient tout ce que le jeu t'envoie, chat compris : ne l'envoie qu'à
+quelqu'un de confiance. Rien n'est envoyé automatiquement.
+
 ## Confidentialité
 
 - Le meter lit le trafic du jeu **sur ton PC** et n'envoie rien : pas de serveur, pas de
