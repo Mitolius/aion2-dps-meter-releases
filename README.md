@@ -21,9 +21,11 @@ reception jeu » : elle l'autorise uniquement à **recevoir** les paquets venant
 
 ## Mises à jour
 
-Au lancement, le meter regarde s'il existe une version plus récente sur cette page. Si oui, la
-barre du bas l'indique : un clic la télécharge, vérifie son empreinte SHA-256 et redémarre le
-meter. L'historique et les réglages sont conservés (`%APPDATA%\Aion2 DPS meter\`).
+Le meter regarde toutes les 5 min s'il existe une version plus récente sur cette page. Par
+défaut, il la télécharge, vérifie son empreinte SHA-256, l'installe et redémarre dès qu'aucun
+combat n'est en cours. En mode manuel (⚙ → Options → Mises à jour), la barre du bas l'indique et
+un clic l'installe. L'historique et les réglages sont conservés (`%APPDATA%\Aion2 DPS meter\`).
+(Depuis la 1.10.5 ; les versions plus anciennes ne vérifient qu'au lancement.)
 
 ## Signaler un problème
 
