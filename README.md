@@ -23,7 +23,7 @@ reception jeu » : elle l'autorise uniquement à **recevoir** les paquets venant
 
 Le meter regarde toutes les 5 min s'il existe une version plus récente sur cette page. Par
 défaut, il la télécharge, vérifie son empreinte SHA-256, l'installe et redémarre dès qu'aucun
-combat n'est en cours. En mode manuel (⚙ → Options → Mises à jour), la barre du bas l'indique et
+combat n'est en cours (en donjon, une fois le dernier boss tombé ou la zone quittée). En mode manuel (⚙ → Options → Mises à jour), la barre du bas l'indique et
 un clic l'installe. L'historique et les réglages sont conservés (`%APPDATA%\Aion2 DPS meter\`).
 (Depuis la 1.10.5 ; les versions plus anciennes ne vérifient qu'au lancement.)
 
